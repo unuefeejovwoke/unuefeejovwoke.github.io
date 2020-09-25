@@ -1,28 +1,23 @@
-* {
-	margin: 0;
-	padding: 0;
-
+body{
+	background-color: hsl(0, 0%, 98%);
 }
 
-.wrapper {
-
-	margin: 0 auto;
-	width: 500px;
+h1,h2,h3,h4,h5,h6{
+	color:hsl(0, 0%, 30%);
 }
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: yellow;
+	border-radius: 2px;
+	padding: 50px;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 20px;
+}
+
 
 video {
 
 	width: 100%;
-	display: wrap;
-}
-a.button {
-
-	-webkit-appearance: button;
-	-moz-appearance: button;
-	appearance: button;
-
-	text-decoration: none;
-	color: initial;
-	background-color: blue;
-	border: 10px;
-}
